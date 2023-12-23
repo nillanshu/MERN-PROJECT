@@ -1,0 +1,86 @@
+.nav-item {
+  margin-left: 0.6rem;
+}
+
+.navbar {
+  padding: 0.5rem 0.8rem;
+  /* font-weight:600; */
+}
+
+.signup-image img{
+  width: 20rem;
+  height: 20rem;
+}
+
+.signin-image img{
+  width: 20rem;
+  height: 20rem;
+}
+
+.userimg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 56px); 
+}
+
+#notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 56px); 
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.signup-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signin-form {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-image {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
