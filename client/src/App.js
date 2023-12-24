@@ -8,7 +8,9 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Logout from './components/Logout';
 import Errorpage from './components/Errorpage';
+
 
 const App = () => {
   return (
@@ -18,21 +20,18 @@ const App = () => {
         
           <Routes>
             <Route exact path='/' element={<Home />} />
-          </Routes>
-          <Routes>
+          
             <Route path='about' element={<About />} />
-          </Routes>
-          <Routes>
+          
             <Route path='contact' element={<Contact />} />
-          </Routes>
-          <Routes>
+          
             <Route path='login' element={<Login />} />
-          </Routes>
-          <Routes>
+          
             <Route path='signup' element={<Signup />} />
-          </Routes>
-          <Routes>
-            <Route element={<Errorpage />} />
+          
+            <Route path='logout' element={<Logout />} />
+          
+            <Route path='*' element={<Errorpage />} />
           </Routes>
         
       </BrowserRouter>
